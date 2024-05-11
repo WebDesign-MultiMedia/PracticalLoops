@@ -34,6 +34,7 @@
 */
 
         // If a number is divisble by both 3 and 5, log "Fizz Buzz"
+        /*
         const divisbleOne = 5;
         const divisbleTwo = 3;
         const str = "Fizz Buzz";
@@ -46,7 +47,18 @@
                 console.log(i, "Buzz");
             }
         }
-        console.log(str);
+        console.log(str); */
 
 
-        
+        // If a number is not divisble by either 3 or 5, log the numbers
+        const divisor = 3;
+        const divisorTwo = 5;
+        const str1 = "These number are not divisble by 3 and 5";
+        for (let i = 0; i < 16; i ++){
+            if (i % divisor !== 0 && i % divisorTwo !== 0){
+                console.log( i);
+            }
+        }
+            console.log(str1)
+
+
